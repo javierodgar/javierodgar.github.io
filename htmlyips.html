@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>1. Lazi loading</h2>
+        <p>it makes the image to dont load until the user scroll down the page</p>
+    </div>
+    <div>
+        <h2>Email, call, sms</h2>
+        <p>you can link an email, call, sms in the reference of a link</p>
+        <a href="mailto:%7Bemail%7D?subject={subject}&amp;body={content}">Send us an email</a>
+        <a href="tel:{phone}">Call us</a>
+        <a href="sms:{phone}?body={content}">Send us a message</a>
+    </div>
+    <div>
+        <h2>3. ol and attribute start</h2>
+        <p>start attribute, it can be used to start the list from a number that you want</p>
+        <ol start="10">
+            <li>first item</li> 
+        </ol>
+    </div>
+    <div>
+        <h2>4. put label</h2>
+        <p>show cuantities without css</p>
+    </div>
+    <div>
+        <h2>5. native search in html</h2>
+        <p>is a tipe of data list</p>
+    </div>
+    <div>
+        <h2>6. fieldset element</h2>
+        <p>you can select one of the options</p>
+    </div>
+    <div>
+        <h2>7. window opener</h2>
+        <p>open in a new window</p>
+        <a href="https://google.com/" target="_blank" rel="noopener">google</a>
+    </div>
+    <div>
+        <h2>8. base element</h2>
+        <p>if you use base label in the header of the document you can make all liks to open in blanck window</p>
+    </div>
+    <div>
+        <h2>9. favicon</h2>
+        <p>icon of our webpage</p>
+    </div>
+    <div>
+        <h2>10. attribute spellcheck</h2>
+        <p>define when an element have to ve corrected</p>
+    </div>
+    <div>
+        <h2>11. native html sliders</h2>
+        <label for="volumen">Volume:</label><br>
+            <input type="range" id="volumen" name="volumen" min="0" max="10"><br><br>
+            <label for="resultado">our volume:</label><br>
+            <input type="number" id="resultado" name="resultado">
+            <script>
+                const volume = document.getElementById('volumen');
+                const result = document.getElementById('resultado');
+                result.value = volume.value;
+
+                volume.addEventListener('change', () => {
+                    result.value = volume.value;
+                });
+            </script>
+    </div>
+    <div>
+        <h2>12. html Accordion</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla possimus cumque vitae explicabo accusantium, ipsam magni placeat voluptatibus fuga quae quia molestias nostrum ex illo? Amet ipsam voluptatem quam velit earum, cumque repudiandae recusandae nobis corrupti? Dolores dolor deserunt consequuntur exercitationem consequatur quos in aliquam, tempore, vel accusamus tempora?</p>
+    </div>
+    <div>
+        <h2>13. html label mark</h2>
+        <p>used to remark <mark>a text</mark></p>
+    </div>
+    <div>
+        <h2>14. download attribute</h2>
+        <p>download a link direcctli</p>
+    </div>
+    <div>
+        <h2>15 .webp for efficienci</h2>
+        <p>.webp in our images format to make smaller then</p>
+    </div>
+    <div>
+        <h2>16. html attribute poster</h2>
+        <p>used in video tag to show a image before the video is loaded</p>
+    </div>
+    <div>
+        <h2>17. input tipe search</h2>
+        <p>works like a tipe text but whits a clean button</p>
+    </div>
+    <div>
+        <h2>18. pre label</h2>
+        <p>write a pre-formated text</p>
+        <pre>
+            hello
+            this
+            is
+            a
+            pre 
+        </pre>
+    </div>
+</body>
+</html>
